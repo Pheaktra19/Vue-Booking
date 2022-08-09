@@ -77,7 +77,7 @@
 }
 .booking-detail {
     display: flex;
-    margin: ;
+   
     
 }
 .booking-detail p {
