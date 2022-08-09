@@ -56,17 +56,16 @@
 
 <style scoped>
 .wrapper {
-    
-    width: 100%;
     height: 35vh;
     padding-left: 140px;
+    padding-right: 100px;
     background-color: gray;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: minmax(200px, 400px) minmax(200px, 350px) minmax(200px, 400px) minmax(200px, 400px);
+  grid-template-columns: minmax(200px, 400px) minmax(200px,200px) minmax(200px, 400px) minmax(200px, 400px);
 }
 .grid-item {
   /* padding: 20px; */

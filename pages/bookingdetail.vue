@@ -57,7 +57,8 @@
 
 <style scoped>
 .wrapper {
-    width: 850px;
+    margin-left: 200px;
+    width: 1200px;
     height: 518px;
     background-color: rgb(214, 213, 213);
 }
@@ -76,6 +77,12 @@
 }
 .booking-detail {
     display: flex;
+    margin: ;
+    
+}
+.booking-detail p {
+    font-size: 18px;
+    
 }
 .button {
     margin-top: 20px;
@@ -94,6 +101,12 @@
     color: white;
     border: 1px;
     border-radius: 0px 10px 10px 0px;
+ }
+ .description {
+    margin-left: 100px;
+ }
+ .caption {
+    margin-left: 450px;
  }
 
 </style>

@@ -1,6 +1,9 @@
 <template>
     <div class="wrapper">
-        <H1>Booking Fly</H1>
+        <div class="back-arrow">
+                <img src="/images/back-arrow.webp">
+                <h2 @click="goTo('/')"></h2>
+        </div>
         <div class="origin">
             <img id="location" src="/images/location-icon.png">
             <input class="inp" placeholder="Chose Origin"/>
@@ -16,7 +19,13 @@
 
 <script>
     export default {
-        
+      methods: {
+        goTo(url) {
+            console.log(url)
+            this.$router.push(url)
+            
+        }
+      },  
     }
 </script>
 
@@ -41,5 +50,15 @@
  #location {
     width: 20px;
  }
+ .back-arrow {
+    display: flex;
+    
+ }
+.back-arrow img {
+    width: 30px;
+    height:30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
 
 </style>

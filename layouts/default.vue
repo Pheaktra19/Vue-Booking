@@ -18,5 +18,6 @@ import TheFooter from '~/components/TheFooter.vue';
 <style scoped>
 #wrapper {
     min-height: 100vh;
+    
 }
 </style>
